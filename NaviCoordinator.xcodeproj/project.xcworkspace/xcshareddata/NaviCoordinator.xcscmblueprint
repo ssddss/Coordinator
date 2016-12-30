@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FA05526751DA8BE7B231F26A6AEC62711B527F31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FA05526751DA8BE7B231F26A6AEC62711B527F31" : 9223372036854775807,
+    "ADB37C94C723969CC2C12744AD3C231035ECAE37" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B1C1D074-FF2F-4791-9CA3-C97273C9A34A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FA05526751DA8BE7B231F26A6AEC62711B527F31" : "NaviCoordinator\/",
+    "ADB37C94C723969CC2C12744AD3C231035ECAE37" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NaviCoordinator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NaviCoordinator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andersfrank\/coordinators.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ADB37C94C723969CC2C12744AD3C231035ECAE37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ssddss\/Coordinator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA05526751DA8BE7B231F26A6AEC62711B527F31"
+    }
+  ]
+}

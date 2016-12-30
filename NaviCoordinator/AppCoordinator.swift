@@ -160,7 +160,6 @@ class AppCoordinator: ADViewControllerDelegate, RootViewControllerDelegate, Root
         deleteCoordinator(targetCoordinator: welcomCoordinator)
     }
     func userDidLogin(welcomCoordinator: WelcomCoordinator, userName: String) {
-        welocmCoordinatorDidFinish(welcomCoordinator: welcomCoordinator)
         userDidLogin = true
         showBaseContentViewController()
     }
@@ -190,6 +189,7 @@ class AppCoordinator: ADViewControllerDelegate, RootViewControllerDelegate, Root
     ///
     /// - Parameter targetCoordinator: 对应的coordinator
     func deleteCoordinator(targetCoordinator: RootCoordinator) {
+        
         var i: Int?
         for j in 0..<childCoordinators.count {
             if childCoordinators[j] === targetCoordinator {

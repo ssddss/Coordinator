@@ -26,9 +26,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppCoordinatorDelegate {
         // Override point for customization after application launch.
 
         let myRootViewController = RootViewController(nibName: nil, bundle: nil)
+        appCoordinator = AppCoordinator(rootViewController: myRootViewController, launchFinish: false, delegate: self)
+        
         window?.rootViewController = myRootViewController
 
-        appCoordinator = AppCoordinator(rootViewController: myRootViewController, launchFinish: false, delegate: self)
         NotificationCenter.default.addObserver(self, selector: #selector(self.didReceiveLogoutNotification(notification:)), name: NSNotification.Name(rawValue: "LogoutNotification"), object: nil)
 
 //        模拟收到通知或者通用链接
